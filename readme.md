@@ -1,5 +1,5 @@
 # CRUD operations for DROAME
-ID Card Generator in Python With QR Code
+
 
 ### *Description*
 * this is an application made with nodeJs and MongoDb to perform the CRUD operations for different users data. This is made ony for the operator and hence no login authentication is there. It is only for the organisation to maintain records of the customer booking.
@@ -20,15 +20,12 @@ ID Card Generator in Python With QR Code
 `And the  application would be running successfully by now.`
 
 
-#### This is Command Line User Input Project and It will create a Image of the Entered Details with QR Code.
+
 
 ![](https://github.com/Aakashaneja/organisation-ID-card-maker/blob/main/CLI.png)
 
-### This is ID Generated :
 
 <img src ="https://github.com/Aakashaneja/organisation-ID-card-maker/blob/main/Aakash%20Aneja.bmp" width="400px" align="center">
-
-### This is QR Code Of ID Generated :
 
 <img src ="https://github.com/Aakashaneja/organisation-ID-card-maker/blob/main/ID1179783.bmp" width="200px" align="center">
 
