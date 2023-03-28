@@ -1,0 +1,58 @@
+<div class="col-6">
+    <div id="updatemodal{%pid%}" style="display: none; ">
+        <form class="row g-3" method="post" action="/update/{%pid%}">
+            <button onclick="document.getElementById('updatemodal'+'{%pid%}').style.display='none'"
+                style="background-color: black ;color: white;">close</button>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" name="email" value="{%email%}" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Number</label>
+                <input type="tel" name="phone" value="{%phone%}" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Customer Id</label>
+                <input type="text" name="cid" value="{%cid%}" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Customer Name</label>
+                <input type="text" name="cname" value="{%cname%}" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Location Id</label>
+                <input type="text" name="lid" value="{%lid%}" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Booking Id</label>
+                <input type="text" name="bid" value="{%bid%}" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Drone Shot Id</label>
+                <input type="text" name="dsid" value="{%dsid%}" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-dark"
+                    onclick="document.getElementById('updatemodal'+'{%pid%}').style.display='none'">Update</button>
+            </div>
+        </form>
+    </div>
+    <p class="card">
+
+        Customer Name: {%cname%} <br>
+        Customer Id: {%cid%}<br>
+        Booking Id: {%bid%} <br>
+        Email: {%email%} <br>
+        Phone: {%phone%}<br>
+        Drone Shot Number:{%dsid%} <br>
+        <small><small>Booked at: {%cat%} <br></small></small>
+        <br>
+        <span><a href="/delete/{%pid%}">Delete</a>&nbsp;<button style="background-color: black ; color:white"
+                onclick="document.getElementById('updatemodal'+'{%pid%}').style.display='block'">Update</button></span>
+
+    </p>
+</div>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        .tit {
+            font-size: 50px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card {
+            padding: 10px;
+            box-shadow: 5px 5px rgb(227, 221, 221);
+            background-color: beige;
+            font-size: 20px;
+        }
+
+        .links {
+            background-color: rgb(25, 17, 48);
+            font-size: larger;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .links>a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .links>a:hover {
+            background-color: black;
+
+        }
+
+        a {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tit">Bookings done are</div>
+    <div class="links">
+        <a href="/book">Book from here</a>
+        <a href="/">Go to Home</a>
+    </div>
+    <div class="container">
+        <h5>You can update and cancel bookings from here</h5>
+        <div class="row">
+
+
+            {%bookingdata%}
+
+        </div>
+    </div>
+</body>
+
+</html>
