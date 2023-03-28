@@ -22,7 +22,7 @@
 
 
 
-![](https://github.com/Aakashaneja/organisation-ID-card-maker/blob/main/CLI.png)
+![](https://github.com/Aakashaneja/droame-project/blob/main/images/Screenshot%20(279).png)
 
 
 <img src ="https://github.com/Aakashaneja/organisation-ID-card-maker/blob/main/Aakash%20Aneja.bmp" width="400px" align="center">
