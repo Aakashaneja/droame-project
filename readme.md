@@ -2,7 +2,7 @@
 
 
 ### *Description*
-* this is an application made with nodeJs and MongoDb to perform the CRUD operations for different users data. This is made ony for the operator and hence no login authentication is there. It is only for the organisation to maintain records of the customer booking.
+* this is an application made with nodeJs and MongoDb to perform the CRUD operations for different user's data. This is made only for the operator and hence no login authentication is there. It is only for the organisation to maintain records of the customer booking.
 
 
 #### Before Using Install Important Library 
